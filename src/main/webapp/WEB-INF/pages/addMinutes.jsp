@@ -10,6 +10,7 @@
 </head>
 <body>
 	<h1>Add Minutes</h1>
+	Language: <a href="?language=en"> English</a> | <a href="?language=es"> Spanish</a> | <a href="?language=tamil"> Tamil</a>
 	<form:form commandName="exercise">
 		<spring:message code="goal.text"/>
 		<form:input path="minutes"/>
